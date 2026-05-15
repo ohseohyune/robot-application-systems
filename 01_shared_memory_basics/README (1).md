@@ -239,10 +239,15 @@ g++ -std=c++17 -O2 plot_shm.cpp         -o plot_shm         -lrt
 ./sine_cosine_test
 
 # 터미널 2: Reader/Plotter 실행
-./plot_shm
+python3 plot_shm.py
 ```
 
 ---
+
+<img width="1674" height="997" alt="image" src="https://github.com/user-attachments/assets/6d936a61-64e6-4900-b2bb-53fad0c901f2" />
+
+마우스 연속 클릭으로 인해 오버런 발생 
+
 
 ## 실제 적용 가능한 유스케이스
 
