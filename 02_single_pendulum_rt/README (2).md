@@ -1,6 +1,8 @@
 # 02 — Single Pendulum Real-Time Control (EVL)
 
 > **Week 06** | 1-DOF Real-Time Control using EVL (Embedded Value Layer) RT Framework
+>
+> EVL RT 스레드가 1ms 주기로 단진자 동역학을 시뮬레이션하면서, Computed Torque PID 제어기로 sin 궤적을 추종하고, jitter / exec_time / tracking error를 모두 측정한다.
 
 ---
 
