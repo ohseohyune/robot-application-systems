@@ -1,0 +1,15 @@
+# 빌드 바이너리
+01_shared_memory_basics/src/plot_shm
+01_shared_memory_basics/src/sine_cosine_test
+02_single_pendulum_rt/src/evl_rt_single
+03_2dof_system_rt/week07/evl_rt_2dof
+03_2dof_system_rt/week08/evl_rt_2dof
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
