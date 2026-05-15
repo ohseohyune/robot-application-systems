@@ -19,7 +19,9 @@ robot-application-systems/
 ```
 
 **왜 주제별로 묶었는가:**
-- 7~8주차는 동일한 2-DOF 시스템의 점진적 확장 (`common` → `common3`)
+- 7~8주차는 동일한 2-DOF 시스템의 점진적 확장 
+  - week07: 관절 공간(Joint Space) Computed Torque Control
+  - week08: 직교 공간(Cartesian Space) 제어 추가 + 동역학 계산을 Uicker-Kahn 방법으로 고도화
 - 11주차 MuJoCo 모델이 7~8주차 물리 모델을 시뮬레이션으로 재현
 - 주차 번호보다 "무엇을 다루는가"가 포트폴리오에서 더 명확하게 읽힘
 
@@ -42,9 +44,9 @@ robot-application-systems/
 |---|---|
 | OS | Linux (RT kernel with EVL) |
 | Compiler | g++ (C++17) |
-| Python | 3.x |
-| MuJoCo | (버전 기입) |
-| ROS2 | (사용 시 기입) |
+| Python | 3.13.9 |
+| MuJoCo | 3.4.0 |
+| ROS2 | Jazzy |
 
 ---
 
